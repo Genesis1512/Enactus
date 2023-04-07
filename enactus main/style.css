@@ -1,0 +1,455 @@
+body{
+    margin:0;
+}
+
+
+
+.header
+{
+    display:flex;
+   
+}
+
+.links
+{
+    
+    margin-left:20px;
+    margin-top: 20px; 
+    
+   
+    position: relative;
+    left: 800px;
+    top:0px;
+    font-size: 20px;
+    transition: 0.1s;
+    color:black;
+}
+
+.links:hover{
+    color:rgb(219, 202, 6);
+}
+
+/* .links:hover{
+    background-color: yellow;
+    padding-bottom: 10px;
+  
+} */
+
+
+
+.head
+{
+    background: -webkit-linear-gradient(black, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 30px;   
+}
+
+.logo
+{
+    height: 40px;
+    width:90px;   
+}
+.first
+{
+    display:flex;
+    width:100%;
+    height:510px;
+    background-image: url("bg-1.jpg");
+    justify-content: space-evenly;    
+      
+}
+
+/* .back
+{
+    width:100%;
+    height:510px;
+    backdrop-filter: blur(1px); 
+} */
+
+
+/* .vl
+{
+    border-left: 6px solid  rgb(230, 196, 7) ;
+  height: 300px;
+
+} */
+
+
+
+
+.para
+{
+    margin-top: 50px;
+    height:300px;
+    width: 300px;
+    /* position: absolute;
+    top:100px;
+    left: 250px; */
+    font-size: 3.5em ;
+    color:rgb(230, 196, 7);
+    font-weight: bold;
+}
+
+.wel
+{
+    color: white;
+}
+
+.basic
+{
+    margin-top: 50px;
+    margin-top: 50px;
+    height:200px;
+    width:300px;
+    padding-top: 70px;
+    /* margin-left: 200px;
+    margin-top: 100px; */
+
+    animation: mymove 2s ;
+}
+
+@keyframes mymove {
+    100% {transform: rotate(360deg);}
+
+
+}
+
+#second
+{
+    height:540px;
+    width:100%;
+
+    background-image: url("bg-2.png");
+}
+
+.about
+{
+    text-align: center;
+    font-size: 3em;
+}
+
+.para-2
+{
+    background: -webkit-linear-gradient(black, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2em;
+    text-align: center;
+
+}
+
+.content
+{
+    display:flex;
+    justify-content: space-evenly; 
+}
+
+.vision
+{
+    width: 320px;
+    height: 360px;
+    background-color: #636161;
+   text-align: center;
+   color: white;
+    border-radius: 25px;
+    margin-bottom: 5px;
+}
+
+.hande
+{
+    font-size: 2.5em;
+}
+
+.pac
+{
+    text-align: left;
+    font-size: 1.5em;
+    line-height: 1.6;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    
+}
+
+#third
+{
+    background-image: url("bg-3.jpg");
+    height:560px;
+    width:100%;
+
+}
+
+.projects
+{
+    font-size: 3em;
+    color:white;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 0;
+
+}
+
+.container
+{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.card
+{
+    height: 380px;
+    width: 300px;
+    /* box-shadow: 5px 5px 20px black; */
+    /* overflow: hidden; */
+   
+   
+    
+}
+
+.picer
+{
+    height: 380px;
+    width: 300px;
+    border-radius: 25px;
+}
+
+
+.intro-2
+{
+    position: relative;
+    bottom:70px;
+    color: white;
+    background-color: rgb(57, 56, 56);
+    height:55px;
+    border-radius: 10px;
+}
+
+.intro-para
+{
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+
+.tpoic
+{
+    font-size: 1.75em;
+    padding: 10px;
+}
+
+.card:hover .intro-2
+{
+    position: relative;
+    bottom: 195px;
+    height: 175px;
+    transition: 0.1s;
+}
+
+.card:hover .intro-para{
+    visibility: visible;
+    opacity: 1;
+}
+
+.button
+{
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 60px;
+    visibility: hidden;
+    opacity: 0;
+    background-color:rgb(230, 196, 7); 
+    padding:10px;
+
+}
+
+.card:hover .button{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.card:hover
+{
+    transform: scale(1.1) rotate(-3deg);
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+#forth
+{
+    background-image: url("bg-4.jpeg");
+    height:510px;
+    width: 100%;;
+    margin-top: 0;
+   
+}
+
+
+.contact
+{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 3em;
+    text-decoration: underline;
+    
+}
+
+
+.iitrr
+{
+    display: block;
+    width:60%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto ;
+    
+   
+
+}
+
+/* .footer
+{
+    background-color: white;
+    width: 100%;
+    height:50px;
+
+    /* position: absolute;
+    bottom:10px;
+     */
+ .link-logo
+ {
+    display: block;
+   padding-left: 30px;
+    margin: 40px 450px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+ }
+
+ .fa {
+    padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  }
+
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-right: 20px;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    margin-right: 20px;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+
+  @media (max-width:800px )
+{
+    .first
+    {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        height:700px;
+    }
+    .para
+    {
+        margin-left: 20%;
+        width:450px;
+    }
+    .links
+    {
+        position: static;
+
+    }
+
+   
+
+    #second
+    {
+        height:920px;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container
+    {
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+
+    .intro-2
+    {
+        text-align: center;
+    }
+
+    /* .vision
+    {
+        margin-bottom: 50px;
+        width: 100%;
+        height:200px;
+    } */
+
+    .card
+    {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .picer{
+        width: 100%;
+    }
+
+    .card:hover
+{
+    transform:  rotate(0);
+    
+}
+
+#third
+{
+    height: 1400px;
+}
+
+#forth
+{
+    height:650px;
+    
+}
+
+.link-logo
+{
+    position: relative;
+    right:200px;
+    margin-bottom: 10px;
+}
+}
